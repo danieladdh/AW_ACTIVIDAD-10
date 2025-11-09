@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylesDivisas.css">
+    <title>Convertidor Divisas</title>
+</head>
+<body>
+    <header id="encabezado">
+            <h1>AW_ACTIVIDAD 10</h1>
+            <nav>
+                <ul>
+                    <li><a href="calcularIMC.html">Calculadora IMC</a></li>
+                    <li><a href="convertidorDivisas.html">Convertidor Divisas</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div id="contenido">
+        <h1>Convertidor Divisas</h1>
+        <div id="seccSeleccion">
+            <select id="monedaOrigen">
+                <option value="1">Dolar Americano</option>
+                <option value="2">Euro</option>
+                <option value="3">Pesos mexicanos</option>
+                <option value="4">Yen japones</option>
+            </select>
+            <p> -> </p>
+            <select id="monedaDestino">
+                <option value="1">Dolar Americano</option>
+                <option value="2">Euro</option>
+                <option value="3">Pesos mexicanos</option>
+                <option value="4">Yen japones</option>
+            </select>
+        </div>
+        <div>
+            <label for="cantidad">Cantidad a convertir: </label>
+            <input id="cantidad" name="cantidad" type="number" min="0" required>
+            <input value="Convertir" type="button" id="btnConversor">
+        </div>
+        <div id="seccResultado">
+            <h2>Resultado </h2>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script src="JS/scriptDivisas.js"></script>
+</body>
+</html>

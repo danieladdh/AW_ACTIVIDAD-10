@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#imgH, #imgM {
+    width: 200px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#contenido{
+    text-align: center;
+}
+
+#seccSeleccion{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+    margin: 10px;
+}
+#seccResultado{
+    margin-top: 10px;
+}

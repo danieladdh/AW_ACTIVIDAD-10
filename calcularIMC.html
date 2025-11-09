@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylesIMC.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <header id="encabezado">
+            <h1>AW_ACTIVIDAD 10</h1>
+            <nav>
+                <ul>
+                    <li><a href="calcularIMC.html">Calculadora IMC</a></li>
+                    <li><a href="convertidorDivisas.html">Convertidor Divisas</a></li>
+                </ul>
+            </nav>
+
+    </header>
+    <div id="contenido">
+        <div id="seccInput">
+            <h1>Calculadora de IMC</h1>
+            <input type="number" placeholder="Altura en mts" id="altura">
+            <input type="number" placeholder="Peso" id="peso">
+            <input type="button" value="Calcular" id="btnCalcular">
+        </div>
+        <div id="seccResultado">
+            <h2>Su IMC</h2>
+            <div id="resultado"></div>
+            <div id="imagenes">
+                <div id="imgM"></div>
+                <div id="imgH"></div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/scriptIMC.js"></script>
+</body>
+</html>
