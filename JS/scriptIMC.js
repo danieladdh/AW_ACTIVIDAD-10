@@ -14,28 +14,28 @@ class Persona{
         let imgH;
         let imgM;
         if(this.imc.toFixed(1)<18.5){
-            imgH="../images/imc17.5H.jpg";
-            imgM="../images/imc17.5M.jpg";
+            imgH="images/imc17.5H.jpg";
+            imgM="images/imc17.5M.jpg";
             this.categoria="Bajo peso";
         }else if(this.imc.toFixed(1)>=18.5 && this.imc.toFixed(1)<=24.9){
-            imgH="../images/imc18.5H.jpg";
-            imgM="../images/imc18.5M.jpg";
+            imgH="images/imc18.5H.jpg";
+            imgM="images/imc18.5M.jpg";
             this.categoria="Peso normal";
         }else if(this.imc.toFixed(1)>=25.0 && this.imc.toFixed(1)<=29.9){
-            imgH="../images/imc22.0H.jpg";
-            imgM="../images/imc22.0M.jpg";
+            imgH="images/imc22.0H.jpg";
+            imgM="images/imc22.0M.jpg";
             this.categoria="Pre-obesidad o Sobrepeso";
         }else if(this.imc.toFixed(1)>=30.0 && this.imc.toFixed(1)<=34.9){
-            imgH="../images/imc24.9H.jpg";
-            imgM="../images/imc24.9M.jpg";
+            imgH="images/imc24.9H.jpg";
+            imgM="images/imc24.9M.jpg";
             this.categoria="Obesidad I";
         }else if(this.imc.toFixed(1)>=35.0 && this.imc.toFixed(1)<=39.9){
-            imgH="../images/imc30.0H.jpg";
-            imgM="../images/imc30.0M.jpg";
+            imgH="images/imc30.0H.jpg";
+            imgM="images/imc30.0M.jpg";
             this.categoria="Obesidad II";
         }else if(this.imc.toFixed(1)>=40.0){
-            imgH="../images/imc40.0H.jpg";
-            imgM="../images/imc40.0M.jpg";
+            imgH="images/imc40.0H.jpg";
+            imgM="images/imc40.0M.jpg";
             this.categoria="Obesidad III";
         }
         document.getElementById("imgM").style.backgroundImage=`url("${imgM}")`;
